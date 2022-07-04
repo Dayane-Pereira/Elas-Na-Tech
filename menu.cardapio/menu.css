@@ -1,0 +1,39 @@
+.superior h1{
+color: crimson;
+font-family: "brush script mt";
+font-size: 50px;
+text-align: center;
+}
+
+.superior h2{
+    color: indianred;
+    font-family: "garamond";
+    font-size: 30px;
+    text-align: center;
+}
+
+.pratos h4{
+    color: lightcoral;
+    font-family: georgia;
+    font-size:15px;
+    text-align: center;
+}
+
+.pratos h5{
+    color: darksalmon;
+    font-family: tahoma;
+    font-size:12px;
+    text-align: center;
+}
+
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/flores-bonitas-em-fundo-rosa-com-espaco-na-direita_23-2147691006.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position:center bottom;
+}
+
+img{
+    display: block;
+    margin:0px auto;
+    border-radius: 20%;
+}
