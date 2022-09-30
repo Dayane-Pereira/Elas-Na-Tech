@@ -1,72 +1,86 @@
-/*PÁGINA SOBRE MIM*/
+/*PÁGINA INICIAL*/
 
 .btn {
-    font-size:15px;
-    font-family:Arial;
-    width:140px;
-    height:50px;
+    font-size:14px;
+    font-family: marker felt;
+    width:110px;
+    height: 35px;
     border-width:1px;
-    color:#ffffff;
-    border-color:#a511c0;
+    color:black;
+    border-color: pink;
     font-weight:bold;
     border-top-left-radius:6px;
     border-top-right-radius:6px;
     border-bottom-left-radius:6px;
     border-bottom-right-radius:6px;
-    box-shadow:inset 0px 1px 0px 0px #e184f3;
-    text-shadow:inset 0px 1px 0px 0px #9b14b3;
-    background-color:transparent;  
-    margin: 2px 140px 6px 140px; 
+    box-shadow:inset 2px 2px 2px 2px #F29580;
+    text-shadow:inset 0px 1px 0px 0px black;
+    margin: 10px 100px 10px 60px; 
     }
     
     
 .btn:hover {
-    background:linear-gradient(#c123de, #a20dbd);
+    background:linear-gradient(#4E2559 , #F29580);
     }
 
 .botão{
-    text-align: center;
+    display:flex;
+    flex:space-evenly;
 }
 
-img{
-    border-radius: 100%;
-    border: 2px double purple;
-    }
+/* DETALHES */
 
-body{
-    background-color: #DDA0DD;
+#linha-horizontal {
+    width: auto;
+    border: 1px solid purple;
+    display: flex;
+
+}
+
+h1, h2{
+    color: white; 
+    font-size: 30px;
+    text-align:center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeWUV36pP8TwEMrsNfqv3GZ1_2OzgIIvtjOQ&usqp=CAU);
+}
+
+/* PÁGINA SOBRE MIM */
+
+img{    
+    border: 1px double #F5F5F5;
 }
 
 .perfil{
-    background-color: #D8BFD8;
     text-align: center;
 }
 
 .nome{
-    color: black;
+    color: #141726;
     font-family: verdana;
     font-size: 30px;
 }
 
 .profissão{
-    color:black;
+    color: #141726;
     font-family: verdana;
     font-size: 20px;
 }
 
-.apresentação, .hobbies{
-    color:black;
+.apresentação{
+    color: #141726;
     font-size: 19px;
 }
 
-    h1, h2{
-        color: purple;
-        font-size: 30px;
-    }
+.hobbies{
+    color: #141726;
+    font-size: 19px;
+}
+
+
 
 /*PÁGINA CONTATOS*/
 ul {
-    color:black;
+    color: #141726;
     font-family: verdana;
     font-size: 20px;
 }
@@ -94,13 +108,65 @@ ul {
 /*PÁGINA FORMAÇÃO*/
 
 .escola1{
-    font-size:30px;
+    font-size:27px;
+    text-align: center;
 }
 
 .curso1{
     font-size: 23px;
+    text-align: center;
 }
 
 .duração1{
     font-size:20px;
+    text-align: center;
 }
+
+/* PÁGINA DO PORTFÓLIO */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+    margin: 25px 50px 75px 500px;
+
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    align-items:ce;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: white;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #FFE4E1;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+
+
+
